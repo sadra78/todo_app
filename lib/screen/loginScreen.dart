@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:progress_indicator_button/button_stagger_animation.dart';
 import 'package:progress_indicator_button/progress_button.dart';
 import 'package:todo_app/Controller/loginController.dart';
 import 'package:todo_app/constants.dart';
@@ -15,8 +14,6 @@ class LoginScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      resizeToAvoidBottomInset: true,
-      extendBody: true,
       body: _buildBody(),
     );
   }
